@@ -11,15 +11,17 @@
 
 <body>
 
-	<nav>
-		<h1>Hotel</h1>
-		<img src="img/logo.png"/>
-		<ul>
-			<a href="#"><li>Habitaciones</li></a>
-			<a href="#"><li>Ubicación</li></a>
-			<a href="#"></a><li>Contacto</li>
-		</ul>
-	</nav>
+	<header>
+		<nav>
+			<h1>Hotel</h1>
+			<img src="img/logo.png"/>
+			<ul>
+				<a href="#"><li>Habitaciones</li></a>
+				<a href="#"><li>Ubicación</li></a>
+				<a href="#"><li>Contacto</li></a>
+			</ul>
+		</nav>
+	</header>
 
 	<section id="container" class="col-md-12">
 			<div id="Nosotros">
@@ -51,8 +53,17 @@
 	</section>
 
 	<section class="contacto">
-		<form>
-			
+		<form class="form-inline">
+			<div class="form-group">
+				<label for="exampleInputName2">Name</label>
+				<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+			</div>
+
+			<div class="form-group">
+				<label for="exampleInputEmail2">Email</label>
+				<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+			</div>
+			<button type="submit" class="btn btn-default">Send invitation</button>
 		</form>
 	</section>
 
