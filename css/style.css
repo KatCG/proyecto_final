@@ -1,1 +1,36 @@
-body header #container{background-image:url(../img/background_hotel_morado.jpg);background-position:center;height:700px;width:100%}body header #container nav h1{display:none}body header #container nav img.logo{width:160px;float:left;margin-left:40px;margin-top:10px}body header #container nav img.logo ul{float:right}body header #container nav img.logo ul a li{float:right;style:none;color:#fff}body header #container img.isotipo{display:block;margin:auto;margin-top:100px}
+/* line 3, C:/Users/Kat/Documents/proyecto_final/proyecto_final/css/style.sass */
+body header #container {
+  background-image: url(../img/background_hotel_morado.jpg);
+  background-position: center;
+  height: 700px;
+  width: 100%; }
+  /* line 9, C:/Users/Kat/Documents/proyecto_final/proyecto_final/css/style.sass */
+  body header #container nav h1 {
+    display: none; }
+  /* line 11, C:/Users/Kat/Documents/proyecto_final/proyecto_final/css/style.sass */
+  body header #container nav img.logo {
+    width: 160px;
+    float: left;
+    margin-left: 60px;
+    margin-top: 10px; }
+  /* line 16, C:/Users/Kat/Documents/proyecto_final/proyecto_final/css/style.sass */
+  body header #container nav ul {
+    float: right;
+    margin-top: 30px;
+    margin-right: 60px; }
+    /* line 21, C:/Users/Kat/Documents/proyecto_final/proyecto_final/css/style.sass */
+    body header #container nav ul a li {
+      style: none;
+      float: right;
+      color: #fff;
+      display: inline-block;
+      margin-right: 40px;
+      font-size: 15px;
+      font-weight: bold; }
+  /* line 29, C:/Users/Kat/Documents/proyecto_final/proyecto_final/css/style.sass */
+  body header #container img.isotipo {
+    display: block;
+    margin: auto;
+    margin-top: 140px; }
+
+/*# sourceMappingURL=style.css.map */
