@@ -30,81 +30,102 @@
 		</section>
 	</header>
 
-	<section id="caracteristicas" class="col-md-12">
-		<h2>Luxus den du fühlst, aber nicht siehst</h2>
-		<p class="subtitulo">Sichert nicht nur deine Apple-Produkte, sondern schont auch deinen</p>
-		<ul class="lista">
-			<li id="comida" class="col-md-4">
-				<span class="ion-ios-nutrition-outline"></span>
-				<h3>Open Dinner</h3>
-				<p>Jeden Tag wird der Schutz deiner Apple-Produkte auf die Probe gestellt. Schon der kleinste Kratzer ist ärgerlich. </p>
-			</li>
-			
-			<li id="ciudad" class="col-md-4">
-				<span class="ion-ios-bolt-outline"></span>
-				<h3>Night Life</h3>
-				<p>GLAZ schafft eine bessere Oberflächenqualität und eine hohe. Ein unsichtbarer Displayschutz, den man erleben muss.</p>
-			</li>
+	<div class="container-fluid" id="caracteristicas">
+		<div class="row" id="caracteristicas">
+			<h2>Luxus den du fühlst, aber nicht siehst</h2>
+			<p class="subtitulo">Sichert nicht nur deine Apple-Produkte, sondern schont auch deinen</p>
+			<ul class="lista">
+				<li id="comida" class="col-md-4">
+					<span class="ion-ios-nutrition-outline"></span>
+					<h3>Open Dinner</h3>
+					<p>Jeden Tag wird der Schutz deiner Apple-Produkte auf die Probe gestellt. Schon der kleinste Kratzer ist ärgerlich. </p>
+				</li>
 
-			<li id="internet" class="col-md-4">
-				<span class="ion-ios-cloud-download-outline"></span>
-				<h3>Free Wifi</h3>
-				<p>Lästiges Putzen gehört der Vergangenheit an. Durch die fettabweisende Oberfläche verringert GLAZ die und sorgt für Klarheit in jeder Situation.</p>
-			</li>
-		</ul>
-	</section>
+				<li id="ciudad" class="col-md-4">
+					<span class="ion-ios-bolt-outline"></span>
+					<h3>Night Life</h3>
+					<p>GLAZ schafft eine bessere Oberflächenqualität und eine hohe. Ein unsichtbarer Displayschutz, den man erleben muss.</p>
+				</li>
 
-	<section class="formulario" >
+				<li id="internet" class="col-md-4">
+					<span class="ion-ios-cloud-download-outline"></span>
+					<h3>Free Wifi</h3>
+					<p>Lästiges Putzen gehört der Vergangenheit an.
+	Durch die fettabweisende Oberfläche verringert GLAZ die und
+	sorgt für Klarheit in jeder Situation.</p>
+				</li>
+			</ul>
+		</div> <!-- termino .row -->
+	</div> <!-- termino .container-fluid id caracteristicas-->
+
+	<div class="container-fluid" id="habitaciones">
+		<div class="row" id="habitaciones">
+			<h2 class="oferta">Reserve one of our suites and get <span class="free">2 free days</span></h2>
+			<div class="col-md-4" id="suite-uno">
+				<figure><img src="img/suite-uno-pequena.jpg"/></figure>
+				<ul>
+					<li><h3>Brentford Suite</h3></li>
+					<li><p>$120.000<span class="dia">/día</span></p></li>
+					<li><span class="ion-checkmark-round"></span>Concierge service estate security</li>
+					<li><span class="ion-checkmark-round"></span>Private resident's gym</li>
+					<li><span class="ion-checkmark-round"></span>Custom kitchen</li>
+					<li><span class="ion-checkmark-round"></span>HD services and cable</li>
+				</ul>
+			</div> <!-- suite-uno -->
+
+			<div class="col-md-4" id="suite-dos">
+				<figure><img src="img/suite-dos-pequena.jpg"/></figure>
+				<ul>
+					<li><h3>Warwick Suite</h3></li>
+					<li><p>$220.000<span class="dia">/día</span></p></li>
+					<li><span class="ion-checkmark-round"></span>Concierge service estate security</li>
+					<li><span class="ion-checkmark-round"></span>Private resident's gym</li>
+					<li><span class="ion-checkmark-round"></span>Custom kitchen</li>
+					<li><span class="ion-checkmark-round"></span>HD services and cable</li>
+				</ul>
+			</div> <!-- suite-dos -->
+
+			<div class="col-md-4" id="suite-tres">
+				<figure><img src="img/suite-tres-pequena.jpg"/></figure>
+				<ul>
+					<li><h3>Derley Suite</h3></li>
+					<li><p>$70.000<span class="dia">/día</span></p></li>
+					<li><span class="ion-checkmark-round"></span>Concierge service estate security</li>
+					<li><span class="ion-checkmark-round"></span>Private resident's gym</li>
+					<li><span class="ion-checkmark-round"></span>Custom kitchen</li>
+					<li><span class="ion-checkmark-round"></span>HD services and cable</li>
+				</ul>
+			</div> <!-- suite-tres -->
+		</div> <!-- row id=habitaciones -->
+	</div> <!-- container-fluid id=habitaciones -->
+
+	<section class="formulario" > <!-- ESTOY ARREGLANDO EL CSS DEL FORMULARIO (DICE CATA) -->
 		<div class="col-md-2">
 		</div>
 		<div class="col-md-8">
 			<form class="form-inline">
+				<div class="form-group">
+					<label for="exampleInputName2">Nombre y Apellido</label>
+					<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
+				</div>
+					<div class="form-group">
+					<label for="exampleInputName2">Ciudad</label>
+					<input type="text" class="form-control" id="exampleInputName2" placeholder="Amsterdam">
+				</div>
 	  			<div class="form-group">
-	    			<label for="exampleInputName2">Nombre y Apellido</label>
-	    			<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-	  			</div>
-	  			 <div class="form-group">
-	    			<label for="exampleInputName2">Ciudad</label>
-	    			<input type="text" class="form-control" id="exampleInputName2" placeholder="Amsterdam">
-	  			</div>
-	  			<div class="form-group">
-				    <label for="exampleInputEmail2">Email</label>
-				    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
+					<label for="exampleInputEmail2">Email</label>
+					<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
 	  			</div>
 	  			<button type="submit" class="btn btn-default">Enviar</button>
 			</form>
 		</div>
 	</section>
 
-	<section>
+	<section> <!-- google maps api -->
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.4080558307273!2d13.450242999999999!3d52.507954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e5b73afb823%3A0xd2371ac970470866!2sWarschauer+Str.+32%2C+10243+Berlin%2C+Alemania!5e0!3m2!1ses-419!2scl!4v1435613333186" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
 
-	<footer id="footer" class="col-md-12">
-		<ul class="sociales">
-			<li>
-				<span class="ion-social-facebook"></span>
-			</li>
-			<li>
-				<span class="ion-social-twitter"></span>
-			</li>
-			<li>
-				<span class="ion-social-github"></span>
-			</li>
-			<li>
-				<span class="ion-social-pinterest"></span>
-			</li>
-			<li>
-				<span class="ion-social-linkedin"></span>
-			</li>
-			<li>
-				<span class="ion-social-instagram"></span>
-			</li>
-		<ul>
-		<h6>© Copyright - Airbnb Hotel - Todos los derechos reservados</h6>
-
-	</footer>
-
+<!-- BORRE EL FOOTER PORQUE ME TIRABA UN ERROR DE ETIQUETA, LO HARÉ DE NUEVO (DICE CATA) -->
 
 </body>
 
