@@ -1,1 +1,299 @@
-body header #container{background-image:url(../img/background_hotel_morado.jpg);background-position:center;height:700px;width:100%}body header #container nav{position:fixed;background-color:rgba(85,80,120,0.5);width:100%;z-index:1000;margin-left:-15px}body header #container nav h1{display:none}body header #container nav img.logo{width:160px;float:left;margin-left:60px;margin-top:10px}body header #container nav ul{float:right;margin-top:30px;margin-right:60px}body header #container nav ul a li{style:none;float:right;color:#fff;display:inline-block;margin-right:40px;font-size:15px;font-weight:bold}body header #container img.isotipo{display:block;margin:auto;margin-top:140px}body .container-fluid#caracteristicas .row#caracteristicas{margin-top:100px;margin-bottom:120px}body .container-fluid#caracteristicas .row#caracteristicas h2{display:block;text-align:center;font-size:36px}body .container-fluid#caracteristicas .row#caracteristicas p.subtitulo{display:block;text-align:center;font-size:28px;color:#5f5f5f}body .container-fluid#caracteristicas .row#caracteristicas ul.lista{list-style-type:none;padding-left:150px;padding-right:150px;margin-top:70px}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#comida .ion-ios-nutrition-outline{font-size:100px;display:block;text-align:center;color:#0097A7}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#comida h3{display:block;text-align:center}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#comida p{display:block;text-align:center}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#ciudad .ion-ios-bolt-outline{font-size:100px;display:block;text-align:center;color:#0097A7}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#ciudad h3{display:block;text-align:center}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#ciudad p{display:block;text-align:center}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#internet .ion-ios-cloud-download-outline{font-size:100px;display:block;text-align:center;color:#0097A7}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#internet h3{display:block;text-align:center}body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#internet p{display:block;text-align:center}body .container-fluid#habitaciones{padding-top:80px;padding-bottom:100px;background-color:#f8f8f8}body .container-fluid#habitaciones .row#habitaciones h2.oferta{display:block;text-align:center;margin-bottom:70px;font-size:36px;color:#393939}body .container-fluid#habitaciones .row#habitaciones h2.oferta .free{color:#0097A7;font-weight:bold}body .container-fluid#habitaciones .row#habitaciones #suite-uno{padding-left:50px}body .container-fluid#habitaciones .row#habitaciones #suite-uno figure img{margin-bottom:-50px}body .container-fluid#habitaciones .row#habitaciones #suite-uno ul{list-style-type:none;margin-top:40px;background-color:#fff;padding-bottom:40px}body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li{margin-bottom:15px;font-size:15px}body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li h3{color:#281d6c;padding-left:40px;font-size:28px;margin-top:50px;padding-top:40px}body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li p{font-size:32px;padding-left:40px;color:#0097A7;padding-bottom:20px}body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li p .dia{font-size:18px;padding-left:10px}body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li .ion-checkmark-round{font-size:16px;color:#0097A7;padding-right:30px}body .container-fluid#habitaciones .row#habitaciones #suite-dos figure img{margin-bottom:-50px}body .container-fluid#habitaciones .row#habitaciones #suite-dos ul{list-style-type:none;margin-top:40px;background-color:#fff;padding-bottom:40px}body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li{margin-bottom:15px;font-size:15px}body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li h3{color:#281d6c;padding-left:40px;font-size:28px;margin-top:50px;padding-top:40px}body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li p{font-size:32px;padding-left:40px;color:#0097A7;padding-bottom:20px}body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li p .dia{font-size:18px;padding-left:10px}body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li .ion-checkmark-round{font-size:16px;color:#0097A7;padding-right:30px}body .container-fluid#habitaciones .row#habitaciones #suite-tres{padding-right:50px}body .container-fluid#habitaciones .row#habitaciones #suite-tres figure img{margin-bottom:-50px}body .container-fluid#habitaciones .row#habitaciones #suite-tres ul{list-style-type:none;margin-top:40px;background-color:#fff;padding-bottom:40px}body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li{margin-bottom:15px;font-size:15px}body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li h3{color:#281d6c;padding-left:40px;font-size:28px;margin-top:50px;padding-top:40px}body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li p{font-size:32px;padding-left:40px;color:#0097A7;padding-bottom:20px}body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li p .dia{font-size:18px;padding-left:10px}body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li .ion-checkmark-round{font-size:16px;color:#0097A7;padding-right:30px}footer{background-color:#333333;height:80px}footer ul{list-style-type:none;text-align:center}footer ul li{display:inline-block;color:#fff;font-size:25px;padding-top:5px;padding-left:5px}footer h6{text-align:center;color:#fff}
+body header #container {
+  background-image: url(../img/background_hotel_morado.jpg);
+  background-position: center;
+  height: 700px;
+  width: 100%;
+}
+
+body header #container nav {
+  position: fixed;
+  background-color: rgba(85, 80, 120, 0.5);
+  width: 100%;
+  z-index: 1000;
+  margin-left: -15px;
+}
+
+body header #container nav h1 {
+  display: none;
+}
+
+body header #container nav img.logo {
+  width: 160px;
+  float: left;
+  margin-left: 60px;
+  margin-top: 10px;
+}
+
+body header #container nav ul {
+  float: right;
+  margin-top: 30px;
+  margin-right: 60px;
+}
+
+body header #container nav ul a li {
+  style: none;
+  float: right;
+  color: #fff;
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+body header #container img.isotipo {
+  display: block;
+  margin: auto;
+  margin-top: 140px;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas {
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas h2 {
+  display: block;
+  text-align: center;
+  font-size: 36px;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas p.subtitulo {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+  color: #5f5f5f;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista {
+  list-style-type: none;
+  padding-left: 150px;
+  padding-right: 150px;
+  margin-top: 70px;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#comida .ion-ios-nutrition-outline {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  color: #0097A7;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#comida h3 {
+  display: block;
+  text-align: center;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#comida p {
+  display: block;
+  text-align: center;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#ciudad .ion-ios-bolt-outline {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  color: #0097A7;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#ciudad h3 {
+  display: block;
+  text-align: center;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#ciudad p {
+  display: block;
+  text-align: center;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#internet .ion-ios-cloud-download-outline {
+  font-size: 100px;
+  display: block;
+  text-align: center;
+  color: #0097A7;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#internet h3 {
+  display: block;
+  text-align: center;
+}
+
+body .container-fluid#caracteristicas .row#caracteristicas ul.lista li#internet p {
+  display: block;
+  text-align: center;
+}
+
+body .container-fluid#habitaciones {
+  padding-top: 80px;
+  padding-bottom: 100px;
+  background-color: #f8f8f8;
+}
+
+body .container-fluid#habitaciones .row#habitaciones h2.oferta {
+  display: block;
+  text-align: center;
+  margin-bottom: 70px;
+  font-size: 36px;
+  color: #393939;
+}
+
+body .container-fluid#habitaciones .row#habitaciones h2.oferta .free {
+  color: #0097A7;
+  font-weight: bold;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno {
+  padding-left: 50px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno figure img {
+  margin-bottom: -50px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno ul {
+  list-style-type: none;
+  margin-top: 40px;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li h3 {
+  color: #281d6c;
+  padding-left: 40px;
+  font-size: 28px;
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li p {
+  font-size: 32px;
+  padding-left: 40px;
+  color: #0097A7;
+  padding-bottom: 20px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li p .dia {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-uno ul li .ion-checkmark-round {
+  font-size: 16px;
+  color: #0097A7;
+  padding-right: 30px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos figure img {
+  margin-bottom: -50px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos ul {
+  list-style-type: none;
+  margin-top: 40px;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li h3 {
+  color: #281d6c;
+  padding-left: 40px;
+  font-size: 28px;
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li p {
+  font-size: 32px;
+  padding-left: 40px;
+  color: #0097A7;
+  padding-bottom: 20px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li p .dia {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-dos ul li .ion-checkmark-round {
+  font-size: 16px;
+  color: #0097A7;
+  padding-right: 30px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres {
+  padding-right: 50px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres figure img {
+  margin-bottom: -50px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres ul {
+  list-style-type: none;
+  margin-top: 40px;
+  background-color: #fff;
+  padding-bottom: 40px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li {
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li h3 {
+  color: #281d6c;
+  padding-left: 40px;
+  font-size: 28px;
+  margin-top: 50px;
+  padding-top: 40px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li p {
+  font-size: 32px;
+  padding-left: 40px;
+  color: #0097A7;
+  padding-bottom: 20px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li p .dia {
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+body .container-fluid#habitaciones .row#habitaciones #suite-tres ul li .ion-checkmark-round {
+  font-size: 16px;
+  color: #0097A7;
+  padding-right: 30px;
+}
+
+footer {
+  background-color: #333333;
+  height: 80px;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  color: #fff;
+  font-size: 25px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
+
+footer h6 {
+  text-align: center;
+  color: #fff;
+}
