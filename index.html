@@ -120,29 +120,17 @@
 		</div> <!-- termino .row -->
 	</div> <!-- termino galeria-->
 
-	<section class="formulario" > <!-- ESTOY ARREGLANDO EL CSS DEL FORMULARIO (DICE CATA) -->
-		<div class="col-md-2">
-		</div>
-		<div class="col-md-8">
-			<form class="form-inline">
-				<div class="form-group">
-					<label for="exampleInputName2">Nombre y Apellido</label>
-					<input type="text" class="form-control" id="exampleInputName2" placeholder="Jane Doe">
-				</div>
-					<div class="form-group">
-					<label for="exampleInputName2">Ciudad</label>
-					<input type="text" class="form-control" id="exampleInputName2" placeholder="Amsterdam">
-				</div>
-	  			<div class="form-group">
-					<label for="exampleInputEmail2">Email</label>
-					<input type="email" class="form-control" id="exampleInputEmail2" placeholder="jane.doe@example.com">
-	  			</div>
-	  			<button type="submit" class="btn btn-default">Enviar</button>
-			</form>
-		</div>
+	<section class="formulario">
+		<h3>Contact Us</h3>
+		<form method= "post" action= "mail.php">
+			<input type= "name" name= "name" placeholder= "Name"/>
+			<input type= "email" name= "email" placeholder= "Email Address"/>
+			<input type= "message" name= "message" placeholder= "Message"/>
+		</form>
+		<input class="send" type="submit" value="Send"/>
 	</section>
 
-	<section> <!-- google maps api -->
+	<section class="maps-api"> <!-- google maps api -->
 		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.4080558307273!2d13.450242999999999!3d52.507954!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e5b73afb823%3A0xd2371ac970470866!2sWarschauer+Str.+32%2C+10243+Berlin%2C+Alemania!5e0!3m2!1ses-419!2scl!4v1435613333186" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 	</section>
 
