@@ -9,8 +9,18 @@
 	<link rel="stylesheet" href="css/footer.css"/>
 	<link rel="stylesheet" href="css/mapa.css"/>
 	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
-	<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-	<script type= "text/javascript" src="js/galeria.js"></script>
+	
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="lib/jquery-1.10.1.min.js"></script>
+
+	<!-- Add mousewheel plugin (this is optional) -->
+	<script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+	<script type="galeria.js/javascript"></script>
+	
 
 	<title>Airbnb Hotel</title>
 </head>
@@ -65,7 +75,8 @@
 		<div class="row" id="habitaciones">
 			<h2 class="oferta">Reserve one of our suites and get <span class="free">2 free days</span></h2>
 			<div class="col-md-4" id="suite-uno">
-				<figure><img src="img/suite-uno-pequena.jpg"/></figure>
+				<figure><a class="fancybox-effects-a" href="img/suite-tres.jpg" title="Lorem ipsum dolor sit amet, consectetur adipiscing elit"><img src="img/suite-uno-pequena.jpg" alt=""/></a></figure>
+				
 				<ul>
 					<li><h3>Brentford Suite</h3></li>
 					<li><p>$120.000<span class="dia">/día</span></p></li>
@@ -101,24 +112,6 @@
 			</div> <!-- suite-tres -->
 		</div> <!-- row id=habitaciones -->
 	</div> <!-- container-fluid id=habitaciones -->
-
-	<div class="container-fluid" id="caracteristicas">
-		<div class="row" id="caracteristicas">
-			
-			<aside class="col-md-3">
-			<ul>
-				<li><img src= "https://octodex.github.com/images/dojocat.jpg" class= "img-rounded img-responsive" title= "Foto Octocat Uno" data-description= "Octocat Ninja"/></li>
-				<li><img src= "https://octodex.github.com/images/minertocat.png" class= "img-rounded img-responsive" title= "Foto Octocat Dos" data-description= "Octocat Pobre"/></li>
-				<li><img src= "https://octodex.github.com/images/jetpacktocat.png" class= "img-rounded img-responsive" title= "Foto Octocat Tres" data-description= "Octocat Avion"/></li>
-				<li><img src= "https://octodex.github.com/images/dunetocat.png" class= "img-rounded img-responsive" title= "Foto Octocat Cuatro" data-description= "Octocat Bane/Cyborg"/></li>
-			</ul>
-	</aside>
-
-		<div id="contenedorGaleria" class="col-md-2">
-			Galeria
-		</div>
-		</div> <!-- termino .row -->
-	</div> <!-- termino galeria-->
 
 	<section class="formulario">
 		<h3>Contact Us</h3>
